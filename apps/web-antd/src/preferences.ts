@@ -8,5 +8,21 @@ export const overridesPreferences = defineOverridesPreferences({
   // overrides
   app: {
     name: import.meta.env.VITE_APP_TITLE,
+    accessMode: 'backend',
+    layout: 'mixed-nav',
+  },
+  sidebar: {
+    enable: false,
+  },
+  tabbar: {
+    enable: false,
+  },
+  footer: {
+    enable: true,
+  },
+  theme: {
+    builtinType: 'slate',
+    colorPrimary: 'hsl(240 5.9% 10%)',
+    mode: 'light',
   },
 });
